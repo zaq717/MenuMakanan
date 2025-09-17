@@ -7,13 +7,13 @@ public class MenuMakanan {
         System.out.println("==============================");
         Ramen D = new Ramen();
         D.setnama("Ramen Shoyu");
-        System.out.println("Nama        : "+D.getnama());
+        System.out.println("Nama        : " + D.getnama());
         D.setjenis("Makanan Jepang");
-        System.out.println("Jenis       : "+D.getjenis());
+        System.out.println("Jenis       : " + D.getjenis());
         D.setharga("Rp 50.000");
-        System.out.println("Harga       : "+D.getharga());
+        System.out.println("Harga       : " + D.getharga());
         D.setkalori("900 kkal");
-        System.out.println("Kalori      : "+D.getkalori());
+        System.out.println("Kalori      : " + D.getkalori());
         D.setlevel_pedas("Sedang");
         System.out.println("Level Pedas : "+D.getlevel_pedas());
         System.out.println("==============================");
