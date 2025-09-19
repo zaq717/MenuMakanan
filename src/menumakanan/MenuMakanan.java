@@ -66,6 +66,20 @@ public class MenuMakanan {
         d.settopping("Cokelat meses, Gula halus");
         System.out.println("Topping     : " + d.gettoppig());
         System.out.println("=====================================");
+        SaladBuah S = new SaladBuah();
+        S.setnama("Salad Buah");
+        System.out.println("Nama        : " + S.getnama());
+        S.setjenis("Makanan Sehat");
+        System.out.println("Jenis       : " + S.getjenis());
+        S.setharga("Rp 15.000");
+        System.out.println("Harga       : " + S.getharga());
+        S.setkalori("200 kkal");
+        System.out.println("Kalori      : " + S.getkalori());
+        S.setbuah("Anggur, Semangka, Kiwi, Melon, Jeruk, Strawbery");
+        System.out.println("Buah        : " + S.getbuah());
+        S.settoping("Keju, Coklat, Keju & Coklat");
+        System.out.println("Toping      : " + S.gettoping());
+        System.out.println("=====================================");
     }
 
 }
