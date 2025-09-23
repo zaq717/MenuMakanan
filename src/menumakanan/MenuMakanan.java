@@ -15,7 +15,7 @@ public class MenuMakanan {
         D.setkalori("900 kkal");
         System.out.println("Kalori      : "+D.getkalori());
         D.setlevel_pedas("Sedang");
-        System.out.println("Level Pedas :  "+D.getlevel_pedas());
+        System.out.println("Level Pedas : "+D.getlevel_pedas());
         System.out.println("==============================");
     }
     
