@@ -3,10 +3,10 @@ package menumakanan;
 public class NasiGoreng {
     String nama, jenis, harga, kalori, topping;
    
-    public void setnama(String namaP){
+    public void setnama(String namaP){//setter
         this.nama = namaP;
     }
-    public String getnama(){
+    public String getnama(){//getter
         return this.nama;
     }
     public void setjenis(String jenisP){
