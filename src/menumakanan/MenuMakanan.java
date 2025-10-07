@@ -34,6 +34,14 @@ public class MenuMakanan {
         b.setKalori("450 kkal");
         b.setisian("Daging sapi, keju, selada, tomat");
         b.tampil();
-    }
+        SaladBuah s = new SaladBuah();
+        s.setNama("Salad Buah");
+        s.setJenis("Makanan Sehat");
+        s.setHarga("Rp 15.000");
+        s.setKalori("330 kkal");
+        s.setBuah("mangga");
+        s.settoping("coklat");
 
+        s.tampil();
+    }
 }

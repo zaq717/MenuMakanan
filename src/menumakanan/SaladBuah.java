@@ -1,40 +1,30 @@
 package menumakanan;
-public class SaladBuah {
-    String nama, jenis, harga, kalori, buah, toping;
-        public void setnama(String namaP) {
-        this.nama = namaP;
-    }
-    public String getnama() {
-        return this.nama;
-    } 
-    public void setjenis(String jenisP) {
-        this.jenis = jenisP;
-    }
-    public String getjenis() {
-        return this.jenis;
-    } 
-    public void setharga(String hargaP) {
-        this.harga = hargaP;
-    }
-    public String getharga() {
-        return this.harga;
-    } 
-    public void setkalori(String kaloriP) {
-        this.kalori = kaloriP;
-    }
-    public String getkalori() {
-        return this.kalori;
-    } 
-    public void setbuah(String buahP) {
+
+public class SaladBuah extends Makanan {
+    
+    private String buah, toping; 
+    
+    public void setBuah(String buahP) {
         this.buah = buahP;
     }
-    public String getbuah() {
-        return this.buah;
-    } 
-     public void settoping(String topingP) {
-        this.toping = topingP;
+    public String getBuah() {
+      return this.buah;
+    }
+        public void settoping(String toping) {
+        this.toping = toping;
     }
     public String gettoping() {
         return this.toping;
     }
+    
+    @Override
+    public void tampil() {
+        System.out.println("Nama        : " + getNama());
+        System.out.println("Jenis       : " + getJenis());
+        System.out.println("Harga       : " + getHarga());
+        System.out.println("Kalori      : " + getKalori());
+        System.out.println("Buah        : " + getBuah());
+        System.out.println("Topping     : " + gettoping());
+        System.out.println("=====================================");
+}
 }
