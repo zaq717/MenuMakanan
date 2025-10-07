@@ -1,4 +1,6 @@
-package menumakanan;
+package JFrame;
+
+import menumakanan.NasiGoreng;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -250,16 +252,16 @@ public class FnasiGoreng extends javax.swing.JFrame {
         // TODO add your handling code here:
         NasiGoreng nasgor = new NasiGoreng();
         
-        nasgor.setnama(tNama.getText());
-        nasgor.setjenis(tJenis.getText());
-        nasgor.setharga(tHarga.getText());
-        nasgor.setkalori(tKalori.getText());
+        nasgor.setNama(tNama.getText());
+        nasgor.setJenis(tJenis.getText());
+        nasgor.setHarga(tHarga.getText());
+        nasgor.setKalori(tKalori.getText());
         nasgor.settopping(tTopping.getText());
         
-        oNama.setText(nasgor.getnama());
-        oJenis.setText(nasgor.getjenis());
-        oHarga.setText(nasgor.getharga());
-        oKalori.setText(nasgor.getkalori());
+        oNama.setText(nasgor.getNama());
+        oJenis.setText(nasgor.getJenis());
+        oHarga.setText(nasgor.getHarga());
+        oKalori.setText(nasgor.getKalori());
         oTopping.setText(nasgor.gettopping());
     }//GEN-LAST:event_bTambahActionPerformed
 

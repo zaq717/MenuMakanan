@@ -1,40 +1,25 @@
 package menumakanan;
 
-public class NasiGoreng {
-    String nama, jenis, harga, kalori, topping;
-   
-    public void setnama(String namaP){//setter
-        this.nama = namaP;
-    }
-    public String getnama(){//getter
-        return this.nama;
-    }
-    public void setjenis(String jenisP){
-        this.jenis = jenisP;
-    }
-    public String getjenis(){
-        return this.jenis;
-    }  
-    public void setharga(String hargaP){
-        this.harga = hargaP;
-    }
-    public String getharga(){
-        return this.harga;
-    }
-    public void setkalori(String kaloriP){
-        this.kalori = kaloriP;
-    }
-    public String getkalori(){
-        return this.kalori;
-    }
+public class NasiGoreng extends Makanan{
+    String topping;
+ 
     public void settopping(String toppingP){
         this.topping = toppingP;
     }
     public String gettopping(){
         return this.topping;
     }
-    public static void main(String[] args) {
-        // TODO code application logic here
-       
+   
+     @Override
+    public void tampil() {
+        System.out.println("=====================================");
+        System.out.println("         MENU MAKANAN PILIHAN        ");
+        System.out.println("=====================================");
+        System.out.println("Nama        : " + getNama());
+        System.out.println("Jenis       : " + getJenis());
+        System.out.println("Harga       : " + getHarga());
+        System.out.println("Kalori      : " + getKalori());
+        System.out.println("Topping     : " + gettopping());
+        System.out.println("=====================================");
     }
 }
