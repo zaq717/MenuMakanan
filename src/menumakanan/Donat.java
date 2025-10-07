@@ -22,7 +22,6 @@ public class Donat extends Makanan {
 
     @Override
     public void tampil() {
-        System.out.println("=====================================");
         System.out.println("Nama        : " + getNama());
         System.out.println("Jenis       : " + getJenis());
         System.out.println("Harga       : " + getHarga());
