@@ -11,6 +11,14 @@ public class MenuMakanan {
         P.setTopping("Pepperoni, Keju Mozzarella, Saus Tomat");
         // 👇 panggil method tampil dari class Pizza
         P.tampil();
+        Donat d = new Donat();
+        d.setNama("Donat Cokelat");
+        d.setJenis("Dessert");
+        d.setHarga("Rp 10.000");
+        d.setKalori("300 kkal");
+        d.setTopping("Cokelat Messes, Gula Halus");
+        // 👇 panggil method tampil dari class Donat
+        d.tampil();
     }
 
 }

@@ -1,41 +1,27 @@
 package menumakanan;
 
-public class Donat {
-    
-    String nama, jenis, harga, kalori, topping;
-    
-    public void setnama(String namaD){
-        this.nama = namaD;
+public class Donat extends Makanan{
+    private String topping; // atribut tambahan khusus Pizza
+
+    // Setter & Getter untuk topping
+    public void setTopping(String topping) {
+        this.topping = topping;
     }
-    public String getnama(){
-        return this.nama;
+
+    public String getTopping() {
+        return topping;
     }
-    
-    public void setjenis(String jenisD){
-        this.jenis = jenisD;
-    }
-    public String getjenis(){
-        return this.jenis;
-    }
-    
-    public void setharga(String hargaD){
-        this.harga = hargaD;
-    }
-    public String getharga(){
-        return this.harga;
-    }
-    
-    public void setkalori(String kaloriD){
-        this.kalori = kaloriD;
-    }
-    public String getkalori(){
-        return this.kalori;
-    }
-    
-    public void settopping(String toppingD){
-        this.topping = toppingD;
-    }
-    public String gettoppig(){
-        return this.topping;
+
+    @Override
+    public void tampil() {
+        System.out.println("=====================================");
+        System.out.println("         MENU MAKANAN PILIHAN        ");
+        System.out.println("=====================================");
+        System.out.println("Nama        : " + getNama());
+        System.out.println("Jenis       : " + getJenis());
+        System.out.println("Harga       : " + getHarga());
+        System.out.println("Kalori      : " + getKalori());
+        System.out.println("Topping     : " + getTopping());
+        System.out.println("=====================================");
     }
 }
