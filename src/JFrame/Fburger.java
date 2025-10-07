@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package menumakanan;
+package JFrame;
+
+import menumakanan.Burger;
 
 /**
  *
@@ -263,8 +265,8 @@ public class Fburger extends javax.swing.JFrame {
     private void jTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTampilActionPerformed
         // TODO add your handling code here:
         Burger b = new Burger();
-        // p.setnama(tnama.getText());
-        //p.setjenis(tjenis.getText());
+         b.setNama(tnama.getText());
+        b.setJenis(tjenis.getText());
         //p.setjenis(tjenis.getText());
         //p.setharga(tharga.getText());
         //p.setkalori(tkalori.getText());
