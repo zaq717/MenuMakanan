@@ -298,20 +298,20 @@ public class Psaladbuah extends javax.swing.JFrame {
 
     private void jTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTampilActionPerformed
         // TODO add your handling code here:
-        SaladBuah p = new SaladBuah();
-        p.setnama(tNama.getText());
-        p.setjenis(tJenis.getText());
-        p.setharga(tHarga.getText());
-        p.setkalori(tKalori.getText());
-        p.setbuah(tBuah.getText());
-        p.settoping(tToping.getText());
+//        SaladBuah s = new SaladBuah();
+        //s.setnama(tNama.getText());
+        //s.setjenis(tJenis.getText());
+        //s.setharga(tHarga.getText());
+        //s.setkalori(tKalori.getText());
+        //s.setbuah(tBuah.getText());
+        //s.settoping(tToping.getText());
         
-        vnama.setText(p.getnama());
-        vjenis.setText(p.getjenis());
-        vharga.setText(p.getharga());
-        vKalori.setText(p.getkalori());
-        vBuah.setText(p.getbuah());
-        vToping.setText(p.gettoping());
+        //vnama.setText(s.getnama());
+        //vjenis.setText(s.getjenis());
+        //vharga.setText(s.getharga());
+        //vKalori.setText(s.getkalori());
+        //vBuah.setText(s.getbuah());
+        //vToping.setText(s.gettoping());
     }//GEN-LAST:event_jTampilActionPerformed
 
     /**
