@@ -262,19 +262,19 @@ public class Fburger extends javax.swing.JFrame {
 
     private void jTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTampilActionPerformed
         // TODO add your handling code here:
-        Burger p = new Burger();
-        p.setnama(tnama.getText());
-        p.setjenis(tjenis.getText());
-        p.setjenis(tjenis.getText());
-        p.setharga(tharga.getText());
-        p.setkalori(tkalori.getText());
-        p.setisian(tisian.getText());
+        Burger b = new Burger();
+        // p.setnama(tnama.getText());
+        //p.setjenis(tjenis.getText());
+        //p.setjenis(tjenis.getText());
+        //p.setharga(tharga.getText());
+        //p.setkalori(tkalori.getText());
+        //p.setisian(tisian.getText());
         
-        vNama.setText(p.getnama());
-        vJenis.setText(p.getjenis());
-        vHarga.setText(p.getharga());
-        vKalori.setText(p.kalori);
-        vIsian.setText(p.isian);
+        //vNama.setText(p.getnama());
+        //vJenis.setText(p.getjenis());
+        //vHarga.setText(p.getharga());
+        //vKalori.setText(p.kalori);
+        //vIsian.setText(p.isian);
         
        
     }//GEN-LAST:event_jTampilActionPerformed
