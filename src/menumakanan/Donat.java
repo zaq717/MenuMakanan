@@ -1,21 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package menumakanan;
 
-public class Donat extends Makanan{
-    private String topping; // atribut tambahan khusus Pizza
+/**
+ *
+ * @author HP
+ */
+public class Donat extends Makanan {
 
-    // Setter & Getter untuk topping
-    public void setTopping(String topping) {
-        this.topping = topping;
-    }
+    String topping;
 
     public String getTopping() {
         return topping;
     }
 
+    public void setTopping(String topping) {
+        this.topping = topping;
+    }
+
     @Override
     public void tampil() {
-        System.out.println("=====================================");
-        System.out.println("         MENU MAKANAN PILIHAN        ");
         System.out.println("=====================================");
         System.out.println("Nama        : " + getNama());
         System.out.println("Jenis       : " + getJenis());
@@ -23,5 +29,6 @@ public class Donat extends Makanan{
         System.out.println("Kalori      : " + getKalori());
         System.out.println("Topping     : " + getTopping());
         System.out.println("=====================================");
+
     }
 }

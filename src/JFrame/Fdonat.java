@@ -231,7 +231,7 @@ public class Fdonat extends javax.swing.JFrame {
 
     private void bTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTampilActionPerformed
         // TODO add your handling code here:
-        Donat d = new Donat();
+//        Donat d = new Donat();
 //        d.setnama(tNama.getText());
 //        d.setjenis(tJenis.getText());
 //        d.setharga(tHarga.getText());
