@@ -17,7 +17,6 @@ public class MenuMakanan {
         P.setHarga("Rp 80.000");
         P.setKalori("900 kkal");
         P.setTopping("Pepperoni, Keju Mozzarella, Saus Tomat");
-        // 👇 panggil method tampil dari class Pizza
         P.tampil();
         Donat d = new Donat();
         d.setNama("Donat Cokelat");
@@ -25,7 +24,6 @@ public class MenuMakanan {
         d.setHarga("Rp 10.000");
         d.setKalori("300 kkal");
         d.setTopping("Cokelat Messes, Gula Halus");
-        // 👇 panggil method tampil dari class Donat
         d.tampil();
         Burger b = new Burger();
         b.setNama("Burger");
@@ -49,6 +47,12 @@ public class MenuMakanan {
         ng.setKalori("500 kkal");
         ng.setTopping("Telur ceplok dan kerupuk");
         ng.tampil();
-        
+        Ramen R = new Ramen();
+        R.setNama("Ramen Shoyu");
+        R.setJenis("Makanan Jepang");
+        R.setHarga("Rp 50.000");
+        R.setKalori("900 kkal");
+        R.setLevel_pedas("Sedang");
+        R.tampil();
     }
 }
