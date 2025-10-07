@@ -11,6 +11,7 @@ public class MenuMakanan {
         P.setTopping("Pepperoni, Keju Mozzarella, Saus Tomat");
         // 👇 panggil method tampil dari class Pizza
         P.tampil();
+        
         Ramen R = new Ramen();
         R.setNama("Ramen Shoyu");
         R.setJenis("Makanan Jepang");
