@@ -42,6 +42,13 @@ public class MenuMakanan {
         s.setBuah("mangga");
         s.settoping("coklat");
         s.tampil();
+        NasiGoreng ng = new NasiGoreng();
+        ng.setNama("Nasi Goreng");
+        ng.setJenis("Makanan Indonesia");
+        ng.setHarga("Rp 10.000");
+        ng.setKalori("500 kkal");
+        ng.setTopping("Telur ceplok dan kerupuk");
+        ng.tampil();
         
     }
 }
