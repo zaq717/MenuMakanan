@@ -1,40 +1,27 @@
 package menumakanan;
-public class Ramen {
-    String nama, jenis, harga, kalori,level_pedas;
-    
-    public void setnama(String namaD){
-        this.nama = namaD;
+
+public class Ramen extends Makanan {
+
+    private String level_pedas; 
+
+    public String getLevel_pedas() {
+        return level_pedas;
     }
-    public String getnama(){
-        return this.nama;
+
+    public void setLevel_pedas(String level_pedas) {
+        this.level_pedas = level_pedas;
     }
-    
-    public void setjenis(String jenisD){
-        this.jenis = jenisD;
+
+    @Override
+    public void tampil() {
+        System.out.println("=====================================");
+        System.out.println("         MENU MAKANAN PILIHAN        ");
+        System.out.println("=====================================");
+        System.out.println("Nama        : " + getNama());
+        System.out.println("Jenis       : " + getJenis());
+        System.out.println("Harga       : " + getHarga());
+        System.out.println("Kalori      : " + getKalori());
+        System.out.println("Level Pedas : " + getLevel_pedas());
+        System.out.println("=====================================");
     }
-    public String getjenis(){
-        return  this.jenis;
-    }
-    
-    public void setharga(String hargaD){
-        this.harga = hargaD;
-    }
-    public String getharga(){
-        return  this.harga;
-    }
-    
-    public void setkalori(String kaloriD){
-        this.kalori = kaloriD;
-    }
-    public String getkalori(){
-        return this.kalori;
-    }
-    
-    public void setlevel_pedas(String level_pedasD){
-        this.level_pedas = level_pedasD;
-    }
-    public String getlevel_pedas(){
-        return this.level_pedas;
-    }
-    
 }

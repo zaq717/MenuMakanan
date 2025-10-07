@@ -4,7 +4,7 @@
  */
 package JFrame;
 
-import menumakanan.Pizza;
+//import menumakanan.Pizza;
 
 /**
  *
