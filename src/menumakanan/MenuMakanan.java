@@ -41,7 +41,7 @@ public class MenuMakanan {
         s.setKalori("330 kkal");
         s.setBuah("mangga");
         s.settoping("coklat");
-
         s.tampil();
+        
     }
 }
