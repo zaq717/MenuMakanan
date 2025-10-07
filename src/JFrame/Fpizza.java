@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package menumakanan;
+package JFrame;
+
+import menumakanan.Pizza;
 
 /**
  *
@@ -279,18 +281,18 @@ public class Fpizza extends javax.swing.JFrame {
     }//GEN-LAST:event_tfToppingActionPerformed
 
     private void btnTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTampilActionPerformed
-        Pizza P = new Pizza();
-        P.setnama(tfNama.getText());
-        P.setjenis(tfJenis.getText());
-        P.setharga(tfHarga.getText());
-        P.setkalori(tfKalori.getText());
-        P.settopping(tfTopping.getText());
-
-        vNama.setText(P.getnama());
-        vJenis.setText(P.getjenis());
-        vHarga.setText(P.getharga());
-        vKalori.setText(P.getkalori());
-        vTopping.setText(P.gettopping());
+//        Pizza P = new Pizza();
+//        P.setnama(tfNama.getText());
+//        P.setjenis(tfJenis.getText());
+//        P.setharga(tfHarga.getText());
+//        P.setkalori(tfKalori.getText());
+//        P.settopping(tfTopping.getText());
+//
+//        vNama.setText(P.getnama());
+//        vJenis.setText(P.getjenis());
+//        vHarga.setText(P.getharga());
+//        vKalori.setText(P.getkalori());
+//        vTopping.setText(P.gettopping());
 
     }//GEN-LAST:event_btnTampilActionPerformed
 
